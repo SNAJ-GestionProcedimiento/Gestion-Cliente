@@ -19,6 +19,12 @@ import {
 } from '@agm/core';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import { AuxiliarProgramarProcedimientoComponent } from './auxiliar-programar-procedimiento/auxiliar-programar-procedimiento.component';
+import { AuxiliarHomeComponent } from './components/auxiliar-home/auxiliar-home.component';
+import { AuxiliarNavbarComponent } from './components/auxiliar-navbar/auxiliar-navbar.component';
+import { AuxiliarDocumentacionComponent } from './components/auxiliar-documentacion/auxiliar-documentacion.component';
+import { AuxiliarMaterialesComponent } from './components/auxiliar-materiales/auxiliar-materiales.component';
+import { PacienteComponent } from './components/paciente/paciente.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -38,6 +44,15 @@ import { AuxiliarProgramarProcedimientoComponent } from './auxiliar-programar-pr
     AdminLayoutComponent,
     AuxiliarProgramarProcedimientoComponent,
 
+    AuxiliarHomeComponent,
+    AuxiliarNavbarComponent,
+    AuxiliarDocumentacionComponent,
+    AuxiliarMaterialesComponent,
+    PacienteComponent
+  ],
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
