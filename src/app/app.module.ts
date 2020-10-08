@@ -6,6 +6,8 @@ import { AuxiliarHomeComponent } from './components/auxiliar-home/auxiliar-home.
 import { AuxiliarNavbarComponent } from './components/auxiliar-navbar/auxiliar-navbar.component';
 import { AuxiliarDocumentacionComponent } from './components/auxiliar-documentacion/auxiliar-documentacion.component';
 import { AuxiliarMaterialesComponent } from './components/auxiliar-materiales/auxiliar-materiales.component';
+import { PacienteComponent } from './components/paciente/paciente.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,12 @@ import { AuxiliarMaterialesComponent } from './components/auxiliar-materiales/au
     AuxiliarHomeComponent,
     AuxiliarNavbarComponent,
     AuxiliarDocumentacionComponent,
-    AuxiliarMaterialesComponent
+    AuxiliarMaterialesComponent,
+    PacienteComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
