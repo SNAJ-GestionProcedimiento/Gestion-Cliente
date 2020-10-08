@@ -4,12 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { AuxiliarHomeComponent } from './components/auxiliar-home/auxiliar-home.component';
 import { AuxiliarNavbarComponent } from './components/auxiliar-navbar/auxiliar-navbar.component';
+import { AuxiliarDocumentacionComponent } from './components/auxiliar-documentacion/auxiliar-documentacion.component';
+import { AuxiliarMaterialesComponent } from './components/auxiliar-materiales/auxiliar-materiales.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuxiliarHomeComponent,
-    AuxiliarNavbarComponent
+    AuxiliarNavbarComponent,
+    AuxiliarDocumentacionComponent,
+    AuxiliarMaterialesComponent
   ],
   imports: [
     BrowserModule
